@@ -1,7 +1,9 @@
+// Created July, 2016
+
 // THIS WHOLE CODE IS RUBBISH
 
 //Largest set: 332-334
-public class Problem9 {
+public class 9_Special_Pythagorean_triplet {
 	public static void main(String[] args) {
 		int num = 1;
 		while (triplet(num) == false && num < 32) {

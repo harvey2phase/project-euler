@@ -1,4 +1,6 @@
-public class Problem4 {
+// Created July 2016
+
+public class 4_Largest_palindrome_product {
 	public static void main(String[] args) {
 		int result = 0;
 		for (int x = 100; x < 1000; x++) {

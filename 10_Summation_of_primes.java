@@ -1,6 +1,8 @@
+// Created July, 2016
+
 // Find the sum of all the primes below two million (2,000,000).
 
-public class Problem10 {
+public class 10_Summation_of_primes {
 	public static void main(String[] args) {
 		long sum = 5;
 		for (int i = 5; i <= 2000000; i += 2)

@@ -1,3 +1,5 @@
+# Created December, 2017
+
 a, b, c, s = 3, 5, 15, 0
 while a < 1000:
     s += a

@@ -1,4 +1,6 @@
-public class Problem14 {
+// Created July, 2016
+
+public class 14_Longest_Collatz_sequence {
 	public static void main(String[] args) {
 		int count, num, largestCount = 0, largestNum = 0;
 		for (int i = 1; i <= 1000000; i++) {

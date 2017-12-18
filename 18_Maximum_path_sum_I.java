@@ -1,7 +1,10 @@
+// Created July, 2016
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-public class Problem18 {
+
+public class 18_Maximum_path_sum_I {
 	public static void main(String[] args) {
 		ArrayList<ArrayList> rowList = new ArrayList<ArrayList>(); //The ArrayList to contain ArrayList of numbers
 		System.out.println("Please enter triangle here: ");

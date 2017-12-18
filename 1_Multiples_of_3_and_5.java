@@ -1,4 +1,6 @@
-public class Problem1 {
+// Created July, 2016
+
+public class 1_Multiples_of_3_and_5 {
 	public static void main(String[] args) {
 		int a = 3, b = 5, c = 15, sum = 0;
 		while (a < 1000) {

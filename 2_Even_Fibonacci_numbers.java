@@ -1,5 +1,8 @@
+// Created July, 2016
+
 import java.util.ArrayList;
-public class Problem2 {
+
+public class 2_Even_Fibonacci_numbers {
 	public static void main (String [] args) {
 		ArrayList<Integer> sequence = new ArrayList<Integer>();
 		sequence.add(1);

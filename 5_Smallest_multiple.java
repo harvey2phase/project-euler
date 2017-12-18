@@ -1,4 +1,6 @@
-public class Problem5 {
+// Created July, 2016
+
+public class 5_Smallest_multiple {
 	public static void main(String[] args) {
 		int count = 2520;
 		while (divisibleBy20(count) == false) {

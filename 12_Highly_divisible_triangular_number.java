@@ -1,5 +1,8 @@
+// Created July, 2016
+
 import java.util.ArrayList;
-public class Problem12 {
+
+public class 12_Highly_divisible_triangular_number {
 	public static void main(String[] args) {
 		
 	}

@@ -1,4 +1,6 @@
-public class Problem7 {
+// Created July, 2016
+
+public class 7_10001st_prime {
 	public static void main(String[] args) {
 		int count = 1, prime = 3, n = 3;
 		while (count <= 10000) {

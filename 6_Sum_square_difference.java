@@ -1,4 +1,6 @@
-public class Problem6 {
+// Created July, 2016
+
+public class 6_Sum_square_difference {
 	public static void main(String[] args) {
 		int squaresSum = 0, sumSquared = 0;
 		for (int i = 1; i <= 100; i++) {
