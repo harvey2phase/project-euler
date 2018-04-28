@@ -1,4 +1,4 @@
-# Created December 2018
+# Created December 2017
 import math as m
 
 num = 600851475143
