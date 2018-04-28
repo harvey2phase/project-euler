@@ -1,28 +1,27 @@
 # Created December 2018
 import math as m
 
-def prime(num):
-    i = 0
-    for i in range(len(prime_list)):
-        # only need to check primes less than or equal to sqrt(num)
-        if prime_list[i] > m.sqrt(num):
+num = 600851475143
+
+def prime(x):
+    for p in prime_list:
+        if p > m.sqrt(x):
             return 1
-        # if num is divisible by anything inside the prime_list
-        if num % prime_list[i] == 0:
+
+        if x % p == 0:
             return 0
     return 1
 
-prime_list = [2, 3]
-num = 5
-while num < 600851475143 + 1:
-    if prime(num):
-        prime_list.append(num)
-    print(num)
-    num += 2
+prime_list = [2]
+factor = -1
+n = 3
 
-k = len(prime_list) - 1
-while k > 0:
-    if 600851475143 % prime_list[k] == 0:
-        print(prime_list[k])
-        break
-    k -= 1
+while n < m.sqrt(num):
+    if prime(n):
+        prime_list.append(n)
+
+        if (num % n) == 0:
+            factor = n
+    n += 2
+
+print(factor)
