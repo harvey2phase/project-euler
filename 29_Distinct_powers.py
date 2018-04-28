@@ -1,7 +1,6 @@
 # Created December 2017
 
 l = []
-b = 2
 for i in range(2, 101):
     a = i
     for b in range(2, 101):
